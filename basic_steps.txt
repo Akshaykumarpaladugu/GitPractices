@@ -1,0 +1,35 @@
+1.command:- git remote -v 
+#connection is connected to origin or not
+
+2. to remove the origin we use command
+
+command:- git remote rm origin
+
+3. check now repeat step 1 again now
+
+
+4.now after creating of repo
+
+5.Before going commands first create README.md file manually
+
+6.now use first commad
+command:- git init                  #this create a git file in your woking file
+
+7. after step 6 another commad
+command:- git add README.md 
+
+#or if u have other folder add them my same commad instead of README.md
+example in my case :-  git add git-cheat-sheet-education.pdf
+
+To know this added or not your file side letter from U to it will change to 
+A this means added
+
+8. next commad show status will show all files are commit or not which are 
+pending to commit
+command:-  git status
+
+9. Think like if u want to remove file from step 7 in that we have added 
+   multi files  to remove any single file we use
+
+commad:- git rm --cached  filename
+
