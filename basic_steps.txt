@@ -83,3 +83,9 @@ command:-git remote -v     # this will show your resporitory name means it is li
 14. to push your code to your resporitory we called origin ok 
 command:- git push -u origin main
     
+
+
+15.if u want to pull new files from github of your resporitory use 
+
+command:-
+          git pull origin main
