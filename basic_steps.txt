@@ -44,7 +44,7 @@ example in my case :-  git add git-cheat-sheet-education.pdf
 
                        (or) shortcut is This will add all rest files which are they 
 
-commad:- git add.   
+commad:- git add .   
 
 To know this added or not your file side letter from U to it will change to 
 A this means added
