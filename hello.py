@@ -1,2 +1,2 @@
 #pull file
-Print("pull file")
+print("pull file")
