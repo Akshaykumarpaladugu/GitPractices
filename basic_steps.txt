@@ -61,3 +61,22 @@ commad:- git rm --cached  filename
 10. to commit to basic stage of stagging not full commit and push to resporitory still
 command:-
           git commit -m "first commit"
+
+
+11. never try to work on master branch soo quickly if your new so we can use other branch to create
+command:-
+        git branch -M main  # here -M refer to rename 
+
+    --> after this above command now try to check 
+        command:- git branch  #You will get  Main branch instead of Master branch
+
+
+12. Now to link your  repository use following
+command:-
+          git remote add origin https://github.com/your repository name
+
+
+13. to check wether is link or now use 
+command:-git remote -v     # this will show your resporitory name means it is linked
+
+    
