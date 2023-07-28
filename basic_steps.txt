@@ -1,3 +1,23 @@
+i.setup basics config of details in git and adding your deatils of storing of code in central respo
+command:-
+          git config --global user.name “[firstname lastname]”
+
+
+to check this saved or not use 
+command :-
+             git config --global user.name
+
+
+ii.set an email address that will be associated with each history marker
+git config --global user.email “[valid-email]”
+
+
+to check this saved or not use 
+command :-
+            git config --global user.email
+
+--> Try complete above steps and follow below steps 
+
 1.command:- git remote -v 
 #connection is connected to origin or not
 
@@ -21,6 +41,11 @@ command:- git add README.md
 #or if u have other folder add them my same commad instead of README.md
 example in my case :-  git add git-cheat-sheet-education.pdf
 
+
+                       (or) shortcut is This will add all rest files which are they 
+
+commad:- git add.   
+
 To know this added or not your file side letter from U to it will change to 
 A this means added
 
@@ -33,3 +58,6 @@ command:-  git status
 
 commad:- git rm --cached  filename
 
+10. to commit to basic stage of stagging not full commit and push to resporitory still
+command:-
+          git commit -m "first commit"
